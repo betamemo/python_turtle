@@ -2,7 +2,7 @@ import turtle as tur
 
 import colorgram
 
-cg = colorgram.extract('img/image.jpeg', 25)
+cg = colorgram.extract('image/image.jpeg', 25)
 colors = []
 for color in cg:
     r = color.rgb.r
