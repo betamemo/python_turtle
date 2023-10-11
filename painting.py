@@ -1,4 +1,3 @@
-import random
 import turtle as tur
 
 import colorgram
@@ -18,7 +17,7 @@ t.screen.colormode(255)
 t.goto(-250, 250)
 
 for i in range(1, 26):
-    t.dot(80, random.choice(colors))
+    t.dot(80, colors[i - 1])
     t.forward(120)
     if i % 5 == 0:
         t.setheading(270)
